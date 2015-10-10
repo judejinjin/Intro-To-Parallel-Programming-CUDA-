@@ -1,0 +1,241 @@
+﻿Build started 10/4/2015 8:43:57 PM.
+     1>Project "D:\VS\cs344-master\Problem Sets\Problem Set 2\Problem Set 2.vcxproj" on node 3 (Rebuild target(s)).
+     1>CudaClean:
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmp76c197f5474b4d06a0adde401699a11d.cmd"
+         "E:\CUDA7.5\CUDA\bin\nvcc.exe" -ccbin "E:\VS\VC\bin\x86_amd64"  -IE:\CUDA7.5\CUDA\include -IE:\CUDA7.5\CUDA\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd " -o x64\Debug\kernel.cu.obj "D:\VS\cs344-master\Problem Sets\Problem Set 2\kernel.cu" -clean
+         
+         D:\VS\cs344-master\Problem Sets\Problem Set 2>"E:\CUDA7.5\CUDA\bin\nvcc.exe" -ccbin "E:\VS\VC\bin\x86_amd64"  -IE:\CUDA7.5\CUDA\include -IE:\CUDA7.5\CUDA\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd " -o x64\Debug\kernel.cu.obj "D:\VS\cs344-master\Problem Sets\Problem Set 2\kernel.cu" -clean 
+         kernel.cu
+       CudaClean:
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmp2cb2e82c74bb4af9a4babc9bfe45ce7f.cmd"
+         "E:\CUDA7.5\CUDA\bin\nvcc.exe" -ccbin "E:\VS\VC\bin\x86_amd64"  -IE:\CUDA7.5\CUDA\include -IE:\CUDA7.5\CUDA\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd " -o x64\Debug\student_func.cu.obj "D:\VS\cs344-master\Problem Sets\Problem Set 2\student_func.cu" -clean
+         
+         D:\VS\cs344-master\Problem Sets\Problem Set 2>"E:\CUDA7.5\CUDA\bin\nvcc.exe" -ccbin "E:\VS\VC\bin\x86_amd64"  -IE:\CUDA7.5\CUDA\include -IE:\CUDA7.5\CUDA\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd " -o x64\Debug\student_func.cu.obj "D:\VS\cs344-master\Problem Sets\Problem Set 2\student_func.cu" -clean 
+         student_func.cu
+       AddCudaCompileDeps:
+         E:\VS\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /IE:\CUDA7.5\CUDA\include /IE:\CUDA7.5\CUDA\bin /IE:\CUDA7.5\CUDA\include /I. /FIcuda_runtime.h /c "D:\VS\cs344-master\Problem Sets\Problem Set 2\kernel.cu" 
+       AddCudaCompileDeps:
+         E:\VS\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /IE:\CUDA7.5\CUDA\include /IE:\CUDA7.5\CUDA\bin /IE:\CUDA7.5\CUDA\include /I. /FIcuda_runtime.h /c "D:\VS\cs344-master\Problem Sets\Problem Set 2\student_func.cu" 
+       CudaBuild:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmp508bc2e9622c46efb76fa7aa6a474991.cmd"
+         "E:\CUDA7.5\CUDA\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "E:\VS\VC\bin\x86_amd64"  -IE:\CUDA7.5\CUDA\include -IE:\CUDA7.5\CUDA\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd " -o x64\Debug\kernel.cu.obj "D:\VS\cs344-master\Problem Sets\Problem Set 2\kernel.cu"
+         
+         D:\VS\cs344-master\Problem Sets\Problem Set 2>"E:\CUDA7.5\CUDA\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "E:\VS\VC\bin\x86_amd64"  -IE:\CUDA7.5\CUDA\include -IE:\CUDA7.5\CUDA\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd " -o x64\Debug\kernel.cu.obj "D:\VS\cs344-master\Problem Sets\Problem Set 2\kernel.cu" 
+     1>e:\cuda7.5\cuda\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(859): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(1807): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(2657): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(3541): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(4492): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(5412): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(6320): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(7195): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(8066): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(775): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(1621): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h(943): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(859): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(1807): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(2657): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(3541): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(4492): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(5412): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(6320): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(7195): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(8066): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(859): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(1807): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(2657): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(3541): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(4492): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(5412): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(6320): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(7195): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(8066): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(910): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(1903): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(2843): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(3779): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(4721): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(5723): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(6682): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(7610): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(8543): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(9413): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(10391): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(11435): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(775): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(1621): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h(943): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(859): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(1807): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(2657): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(3541): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(4492): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(5412): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(6320): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(7195): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(8066): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(775): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(1621): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h(943): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(859): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(1807): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(2657): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(3541): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(4492): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(5412): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(6320): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(7195): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(8066): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         kernel.cu
+       CudaBuild:
+         Compiling CUDA source file student_func.cu...
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmp2703ff11d8c24a2dbef9867299e4569a.cmd"
+         "E:\CUDA7.5\CUDA\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "E:\VS\VC\bin\x86_amd64"  -IE:\CUDA7.5\CUDA\include -IE:\CUDA7.5\CUDA\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd " -o x64\Debug\student_func.cu.obj "D:\VS\cs344-master\Problem Sets\Problem Set 2\student_func.cu"
+         
+         D:\VS\cs344-master\Problem Sets\Problem Set 2>"E:\CUDA7.5\CUDA\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "E:\VS\VC\bin\x86_amd64"  -IE:\CUDA7.5\CUDA\include -IE:\CUDA7.5\CUDA\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd " -o x64\Debug\student_func.cu.obj "D:\VS\cs344-master\Problem Sets\Problem Set 2\student_func.cu" 
+     1>e:\cuda7.5\cuda\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(859): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(1807): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(2657): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(3541): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(4492): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(5412): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(6320): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(7195): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(8066): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(775): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(1621): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h(943): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:/VS/cs344-master/Problem Sets/Problem Set 2/student_func.cu(124): warning : variable "thread_1D_pos" was declared but never referenced
+     1>e:\cuda7.5\cuda\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(859): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(1807): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(2657): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(3541): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(4492): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(5412): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(6320): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(7195): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(8066): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(859): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(1807): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(2657): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(3541): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(4492): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(5412): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(6320): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(7195): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(8066): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(910): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(1903): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(2843): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(3779): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(4721): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(5723): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(6682): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(7610): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(8543): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(9413): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(10391): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions_decls.h(11435): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(775): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(1621): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h(943): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(859): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(1807): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(2657): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(3541): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(4492): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(5412): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(6320): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(7195): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(8066): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(775): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_functions.h(1621): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\sm_20_intrinsics.h(943): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:/VS/cs344-master/Problem Sets/Problem Set 2/student_func.cu(124): warning : variable "thread_1D_pos" was declared but never referenced
+     1>e:\cuda7.5\cuda\include\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(859): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(1807): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(2657): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(3541): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(4492): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(5412): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(6320): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(7195): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\cuda7.5\cuda\include\math_functions.h(8066): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         student_func.cu
+     1>D:/VS/cs344-master/Problem Sets/Problem Set 2/student_func.cu(261): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>D:/VS/cs344-master/Problem Sets/Problem Set 2/student_func.cu(264): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:/VS/cs344-master/Problem Sets/Problem Set 2/student_func.cu(275): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:/VS/cs344-master/Problem Sets/Problem Set 2/student_func.cu(281): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:/VS/cs344-master/Problem Sets/Problem Set 2/student_func.cu(287): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>D:/VS/cs344-master/Problem Sets/Problem Set 2/student_func.cu(302): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+       ClCompile:
+         E:\VS\VC\bin\x86_amd64\CL.exe /c /IE:\CUDA7.5\CUDA\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D WIN64 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt compare.cpp HW2.cpp main.cpp reference_calc.cpp
+         reference_calc.cpp
+     1>reference_calc.cpp(33): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+         main.cpp
+     1>E:\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         HW2.cpp
+     1>E:\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>HW2.cpp(107): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         compare.cpp
+     1>E:\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>E:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         Generating Code...
+       Link:
+         E:\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS\cs344-master\Problem Sets\x64\Debug\Problem Set 2.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\opencv\build\x64\vc12\staticlib /LIBPATH:E:\CUDA7.5\CUDA\lib\x64 ippicvmt.lib IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_hal300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_ts300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib zlibd.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS\cs344-master\Problem Sets\x64\Debug\Problem Set 2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS\cs344-master\Problem Sets\x64\Debug\Problem Set 2.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         x64\Debug\student_func.cu.obj
+         x64\Debug\compare.obj
+         x64\Debug\HW2.obj
+         x64\Debug\main.obj
+         x64\Debug\reference_calc.obj
+         Problem Set 2.vcxproj -> D:\VS\cs344-master\Problem Sets\x64\Debug\Problem Set 2.exe
+       PostBuildEvent:
+         echo copy "E:\CUDA7.5\CUDA\bin\cudart*.dll" "D:\VS\cs344-master\Problem Sets\x64\Debug\"
+         copy "E:\CUDA7.5\CUDA\bin\cudart*.dll" "D:\VS\cs344-master\Problem Sets\x64\Debug\"
+         :VCEnd
+         copy "E:\CUDA7.5\CUDA\bin\cudart*.dll" "D:\VS\cs344-master\Problem Sets\x64\Debug\"
+         E:\CUDA7.5\CUDA\bin\cudart32_75.dll
+         E:\CUDA7.5\CUDA\bin\cudart64_75.dll
+                 2 file(s) copied.
+     1>Done Building Project "D:\VS\cs344-master\Problem Sets\Problem Set 2\Problem Set 2.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:40.12
